@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bateria</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/b.png">
 </head>
 <body>
     <h1>Bateria</h1>
@@ -26,11 +27,16 @@
 		<div class="div-nova-teste"></div>
     </div>
     <div class="composer">
-        <input type="text" id="input" placeholder="Faça uma composição..." />
-        <button>Tocar</button>
+        <div class="composition">
+            <input type="text" id="input" placeholder="Faça uma composição..." />
+            <a href="">
+                <img src="images/lixo.png">
+            </a>
+        </div>
+        <button class="btn-composer">Tocar</button>
     </div>
 
-    <footer>Criado pela B7Web</footer>
+    <footer>Criado por Douglas</footer>
 
     <audio id="s_keyq" src="sounds/keyq.wav"></audio>
     <audio id="s_keyw" src="sounds/keyw.wav"></audio>
