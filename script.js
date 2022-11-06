@@ -12,6 +12,19 @@ document.querySelector('.composition a').addEventListener("click", (event) => {
     document.querySelector('#input').value = '';
 });
 
+document.querySelectorAll('.keys a').forEach((item)=>{
+
+    item.addEventListener('click', (event) => {
+
+        event.preventDefault();
+    
+        let dataKey = event.target.getAttribute('data-key');
+        let key = dataKey[3];
+    
+        playSound(key);
+    });
+});
+
 
 
 /*Functions*/
