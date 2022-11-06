@@ -22,6 +22,9 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+.keys a {
+    text-decoration: none;
+}
 .key {
     width: 80px;
     height: 80px;
